@@ -59,7 +59,7 @@ function areconnaissence(){
 		echo -e "\033[1m\033[91mTarget IP Address: $ipaddr"
 		gnome-terminal --geometry=117x25+1000-1000 -- bash -c "echo -e '\033[92m'; dirb http://$ipaddr 2>&1 | tee $output; exec bash"
 		gnome-terminal --geometry=117x25+1000+1000 -- bash -c "echo -e '\033[92m'; nmap -A -p- -T4 $ipaddr -oN $output; exec bash"
-		gnome-terminal --geometry=117x25+0+0 -- bash -c "echo -e '\033[92m'; sqlmap -u http://$ipaddr -dbs ; exec bash"
+		gnome-terminal --geometry=117x25+0+0 -- bash -c "echo -e '\033[92m'; nikto -h $ipaddr ; exec bash"
 		gnome-terminal --geometry=117x25+0-0 -- bash -c "echo -e '\033[92m'; gobuster dir -u http://$ipaddr/ -w /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt -o $output; exec bash"
 	else
 		exit 1
