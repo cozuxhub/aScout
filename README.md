@@ -8,7 +8,7 @@
 
 ![Ekran görüntüsü 2024-05-05 015620](https://github.com/cozuxhub/ascout/assets/152704509/253a8a2e-75db-4ca3-9a84-99000b6d0164)
 
-### Let's send three pings to confirm that we are on the same network as our target and that we can communicate with it. If we receive responses, our script should continue running.
+### Let's send three ICMP packet to confirm that we are on the same network as our target and that we can communicate with it. If we receive responses, our script should continue running.
 
 ![Ekran görüntüsü 2024-05-05 015636](https://github.com/cozuxhub/ascout/assets/152704509/3de563ed-2ef6-4ed0-8306-c7ff5245896e)
 
