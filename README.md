@@ -1,8 +1,9 @@
-# USE
+# DOWNLOAD
 ### First, let's download the script to our Kali Linux using the command `git clone https://github.com/cozuxhub/ascout.git`, and then grant executable permissions to all users.
 
 ![Ekran görüntüsü 2024-05-05 015601](https://github.com/cozuxhub/ascout/assets/152704509/833aab7c-eba9-4d7d-8b42-694a98f12965)
 
+# USE
 
 ### Now that our script is executable, let's write the IP Address of the target system and an argument output.txt to save the outputs, then let's launch our script. `./ascout.sh <ip_address> <output_file>`
 
