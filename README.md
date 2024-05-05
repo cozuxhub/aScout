@@ -1,5 +1,5 @@
 # USE
-### First, let's download the repository to our Kali Linux using the command `git clone https://github.com/cozuxhub/ascout.git`, and then grant executable permissions to all users.
+### First, let's download the script to our Kali Linux using the command `git clone https://github.com/cozuxhub/ascout.git`, and then grant executable permissions to all users.
 
 ![Ekran görüntüsü 2024-05-05 015601](https://github.com/cozuxhub/ascout/assets/152704509/833aab7c-eba9-4d7d-8b42-694a98f12965)
 
