@@ -11,15 +11,15 @@
 
 ### Let's send three ICMP packet to confirm that we are on the same network as our target and that we can communicate with it. If we receive responses, our script should continue running.
 
-![Ekran görüntüsü 2024-05-05 015636](https://github.com/cozuxhub/ascout/assets/152704509/3de563ed-2ef6-4ed0-8306-c7ff5245896e)
+![Ekran görüntüsü 2024-05-06 191321](https://github.com/cozuxhub/aScout/assets/152704509/fa2e7f91-eeae-4a24-8164-7f8ad95e19a8)
 
 ### Right at this point, since all the actions we're about to take could potentially leave a footprint on the target system and be seen as a security threat, let's give the user a final warning.
 
-![Ekran görüntüsü 2024-05-05 015903](https://github.com/cozuxhub/ascout/assets/152704509/f0b9bff7-8c67-408a-bf13-4ebcfd6380f8)
+![Ekran görüntüsü 2024-05-06 191428](https://github.com/cozuxhub/aScout/assets/152704509/7ffe12dd-7fbb-48ad-983b-d97ecf54f424)
 
 ### If the user agrees to proceed, we'll start the scanning process.
 
- ![Ekran görüntüsü 2024-05-05 015837](https://github.com/cozuxhub/ascout/assets/152704509/4b7297d3-3706-4673-9596-70408c4b4106)
+![Ekran görüntüsü 2024-05-06 191446](https://github.com/cozuxhub/aScout/assets/152704509/745a7764-3f92-452a-8d16-2ea7b187f927)
 
  # ADDITIONAL INFORMATION:
 
