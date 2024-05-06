@@ -22,7 +22,7 @@ if [[ -z "$output" ]]; then
 	exit 1
 fi
 
-# Let's first check if we can communicate with the target
+# Let's first check if we can communicate with the target.
 function ping_checker(){
 	echo -e "\n\033[1m\033[96m[\033[0m1\033[96m\033[1m] \033[93mICMP packets are being sent to the target. Please wait...\n\033[0m"
 	# Let the fifteen-minute timer begin.
