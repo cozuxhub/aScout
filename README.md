@@ -1,25 +1,29 @@
 # DOWNLOAD
-### First, let's download the script to our Kali Linux using the command `git clone https://github.com/cozuxhub/ascout.git`, and then grant executable permissions to all users.
+### First, let's download the script to our Kali Linux using the command `git clone https://github.com/norcholly/ascout.git`, and then grant executable permissions to all users.
 
-![Ekran görüntüsü 2024-05-05 015601](https://github.com/cozuxhub/ascout/assets/152704509/833aab7c-eba9-4d7d-8b42-694a98f12965)
+![0](https://github.com/norcholly/aScout/assets/152704509/b1d22dfb-0885-4d4d-ae65-e4cce0b47c17)
 
 # USE
 
 ### Now that our script is executable, let's write the IP Address of the target system and an argument output.txt to save the outputs, then let's launch our script. `./ascout.sh <ip_address> <output_file>`
 
-![Ekran görüntüsü 2024-05-05 015620](https://github.com/cozuxhub/ascout/assets/152704509/253a8a2e-75db-4ca3-9a84-99000b6d0164)
+![1](https://github.com/norcholly/aScout/assets/152704509/df989ccd-a805-48d4-a87f-ba2544c01c30)
 
-### Let's send three ICMP packet to confirm that we are on the same network as our target and that we can communicate with it. If we receive responses, our script should continue running.
+### If the tools used in the script (gnome-terminal and gobuster) are not already installed on the Linux operating system, the script automatically detects this and first installs these tools to the operating system with user permission.
 
-![Ekran görüntüsü 2024-05-06 191321](https://github.com/cozuxhub/aScout/assets/152704509/fa2e7f91-eeae-4a24-8164-7f8ad95e19a8)
+![2](https://github.com/norcholly/aScout/assets/152704509/4877c4e1-37c4-4453-9ad3-09d3bbf91f64)
 
-### Right at this point, since all the actions we're about to take could potentially leave a footprint on the target system and be seen as a security threat, let's give the user a final warning.
+### Right at this point, since all the actions we're about to take could potentially leave a footprint on the target system and be seen as a security threat, let's give the user a warning.
 
-![Ekran görüntüsü 2024-05-06 191428](https://github.com/cozuxhub/aScout/assets/152704509/7ffe12dd-7fbb-48ad-983b-d97ecf54f424)
+![3](https://github.com/norcholly/aScout/assets/152704509/dfe4142a-758b-4d4a-9a34-f6918a0b991e)
 
-### If the user agrees to proceed, we'll start the scanning process.
+### If the user agrees to proceed, let's send an ICMP packet to see if we are on the same network as the target machine or if we can communicate with it. 
 
-![Ekran görüntüsü 2024-05-06 191446](https://github.com/cozuxhub/aScout/assets/152704509/745a7764-3f92-452a-8d16-2ea7b187f927)
+![4](https://github.com/norcholly/aScout/assets/152704509/750dd1a4-029f-4fda-a262-f24d2f092317)
+
+### If there is no packet loss, the scanning process will start automatically. Sit back and enjoy!
+
+![5](https://github.com/norcholly/aScout/assets/152704509/1f3e7c58-3526-4df4-ae4b-34eebf20e985)
 
  # ADDITIONAL INFORMATION:
 
