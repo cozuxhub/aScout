@@ -5,9 +5,9 @@
 
 # USE
 
-### Now that our script is executable, let's write the IP Address of the target system and an argument output.txt to save the outputs, then let's launch our script. `./ascout.sh <ip_address> <output_file>`
+### Now that our script is executable, let's write the IP Address of the target system, an argument output.txt to save the outputs, and the speed option, then let's launch our script. `./ascout.sh <ip_address> <output_file>`
 
-![1](https://github.com/norcholly/aScout/assets/152704509/df989ccd-a805-48d4-a87f-ba2544c01c30)
+![Ekran görüntüsü 2024-05-28 114153](https://github.com/norcholly/aScout/assets/152704509/d7225d2c-ced6-4be2-9a7f-14b22ce1aa0f)
 
 ### If the tools used in the script (gnome-terminal and gobuster) are not already installed on the Linux operating system, the script automatically detects this and first installs these tools to the operating system with user permission.
 
